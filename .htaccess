@@ -1,7 +1,3 @@
 RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-Redirect 302 / https://atlantico.ml/index.html
-Redirect 404 / https://atlantico.ml/index.html
-Redirect 301 / https://atlantico.ml/index.html
