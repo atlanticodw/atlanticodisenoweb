@@ -1,3 +1,76 @@
-header {
-  background-color: #e8e8e8;
+.color1 {
+  background-color: #222831;
 }
+.color2 {
+  background-color: #393e46;
+}
+.color3 {
+  background-color: #00adb5;
+}
+.color4 {
+  background-color: #eeeeee;
+}
+.texto1 {
+  color: #222831;
+}
+.texto2 {
+  color: #393e46;
+}
+.texto3 {
+  color: #00adb5;
+}
+.texto4 {
+  color: #eeeeee;
+}
+.texto5 {
+  color: #FFFFFF;
+  background: #222831;
+  text-shadow: 1px 0px 1px #FFFFFF, 0px 1px 1px #FFFFFF, 2px 1px 1px #FFFFFF, 1px 2px 1px #FFFFFF, 3px 2px 1px #FFFFFF, 2px 3px 1px #FFFFFF, 4px 3px 1px #FFFFFF, 3px 4px 1px #FFFFFF, 5px 4px 1px #FFFFFF, 4px 5px 1px #FFFFFF, 6px 5px 1px #FFFFFF, 5px 6px 1px #FFFFFF, 7px 6px 1px #FFFFFF;
+  color: #00adb5;
+  background: #222831;
+}
+nav a:link {
+  text-decoration: none;
+}
+nav a {
+  display: inline-block;
+}
+header {
+  border-radius: 5px;
+}
+a:link {
+  text-decoration: none;
+}
+li a:hover {
+  color: #00adb5;
+}
+.link:hover {
+  text-decoration: none;
+  color: #eeeeee;
+}
+ul li {
+  list-style: none;
+}
+ul li.fb {
+  list-style-image: url(/img/fb1.png);
+}
+ul li.fb:hover {
+  list-style-image: url(/img/fb2.png);
+}
+ul li.tel {
+  list-style-image: url(/img/tel1.png);
+}
+ul li.tel:hover {
+  list-style-image: url(/img/tel2.png);
+}
+ul li.mail {
+  list-style-image: url(/img/mail1.png);
+}
+ul li.mail:hover {
+  list-style-image: url(/img/mail2.png);
+}
+
+
+
+
+
